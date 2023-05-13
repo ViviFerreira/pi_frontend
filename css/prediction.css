@@ -1,0 +1,74 @@
+container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+container .part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black)
+} 
+container .part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blue)
+} 
+
+content {
+    width: 80%;
+    height: 80%;
+}
+
+.title {
+    text-align: center;
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.subtitle {
+    text-align: center;
+    color: var(--color-white);
+    font-weight: 500;
+}
+container .part2 .subtitle {
+    margin-bottom: 4rem
+}
+span {
+    color: var(--color-black);
+    font-weight: 700;
+}
+
+form {
+    margin-top: 4rem;
+}
+
+select,
+input {
+    margin-bottom: 0.5rem;
+}
+
+.btn-prediction {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.btn-back {
+    background-color: var(--color-black);
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 8%;
+    background-color: var(--color-white);
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    padding-left: 1rem;
+}
